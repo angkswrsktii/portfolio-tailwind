@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Angkasawari Sakti</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 10mm;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', 'Calibri', sans-serif;
+            font-size: 12px;
+            line-height: 1.3;
+            color: #333;
+            background: #fff;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 15px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 10px;
+            border-bottom: 2px solid #333;
+            padding-bottom: 6px;
+        }
+
+        .name {
+            font-size: 26px;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-bottom: 3px;
+        }
+
+        .title {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 6px;
+        }
+
+        .contact {
+            font-size: 11px;
+            color: #666;
+        }
+
+        .section {
+            margin-bottom: 8px;
+        }
+
+        .section-title {
+            font-size: 14px;
+            font-weight: bold;
+            text-transform: uppercase;
+            border-bottom: 1px solid #999;
+            margin-bottom: 4px;
+            padding-bottom: 2px;
+        }
+
+        .section-content {
+            margin-left: 0;
+        }
+
+        .job {
+            margin-bottom: 6px;
+        }
+
+        .job-header {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 2px;
+        }
+
+        .job-title {
+            font-weight: bold;
+            font-size: 12px;
+        }
+
+        .job-company {
+            font-weight: bold;
+            color: #555;
+        }
+
+        .job-date {
+            font-size: 11px;
+            color: #666;
+        }
+
+        .job-location {
+            font-size: 11px;
+            color: #666;
+            font-style: italic;
+        }
+
+        .bullet-list {
+            margin-left: 15px;
+            margin-top: 2px;
+        }
+
+        .bullet-list li {
+            margin-bottom: 1px;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2px;
+            margin-left: 0;
+        }
+
+        .skill-category {
+            font-weight: bold;
+            margin-top: 2px;
+        }
+
+        .education-item {
+            margin-bottom: 4px;
+        }
+
+        .project-item {
+            margin-bottom: 4px;
+        }
+
+        .project-title {
+            font-weight: bold;
+        }
+
+        .cert-item {
+            margin-bottom: 2px;
+        }
+
+        @media print {
+            body {
+                padding: 10px;
+                font-size: 11px;
+                line-height: 1.25;
+            }
+            .header {
+                margin-bottom: 8px;
+            }
+            .section {
+                margin-bottom: 6px;
+                page-break-inside: avoid;
+            }
+            .section-title {
+                margin-bottom: 3px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <div class="header">
+        <div class="name">Angkasawari Sakti</div>
+        <div class="title">Backend Software Engineer</div>
+        <div class="contact">
+            Depok, Indonesia | +6285893026097 | angkasawarisakti@gmail.com |
+            <a href="https://linkedin.com/in/angkswrsktii">linkedin.com/in/angkswrsktii</a> |
+            <a href="https://github.com/angkswrsktii">github.com/angkswrsktii</a>
+        </div>
+    </div>
+
+    <!-- Professional Summary -->
+    <div class="section">
+        <div class="section-title">Professional Summary</div>
+        <div class="section-content">
+            Backend Software Engineer with 3+ years of experience building scalable applications using Golang and Java. Currently developing and maintaining a microservice architecture at SALT that handles tens of millions of records at around 5,000 transactions per second. Proficient in designing RESTful APIs, implementing message brokers (Kafka, RabbitMQ), caching (Redis), and deploying with Kubernetes (AWS EKS). Passionate about solving complex problems, writing clean code using Test-Driven Development, Clean Architecture, and Domain-Driven Design principles.
+        </div>
+    </div>
+
+    <!-- Skills -->
+    <div class="section">
+        <div class="section-title">Technical Skills</div>
+        <div class="section-content">
+            <div class="skills-grid">
+                <div>
+                    <div class="skill-category">Languages:</div>
+                    Golang, Java, SQL, JavaScript, PHP
+                </div>
+                <div>
+                    <div class="skill-category">Frameworks:</div>
+                    Spring Boot, Laravel, CodeIgniter
+                </div>
+                <div>
+                    <div class="skill-category">Databases:</div>
+                    PostgreSQL, MySQL, Oracle Database
+                </div>
+                <div>
+                    <div class="skill-category">DevOps & Cloud:</div>
+                    Docker, Kubernetes (AWS EKS), GitLab CI/CD, AWS
+                </div>
+                <div>
+                    <div class="skill-category">Messaging & Caching:</div>
+                    Apache Kafka, RabbitMQ, Redis
+                </div>
+                <div>
+                    <div class="skill-category">Methodologies:</div>
+                    Agile, Scrum, Test-Driven Development, RESTful APIs, Microservices, Clean Architecture, Domain-Driven Design, Git
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Experience -->
+    <div class="section">
+        <div class="section-title">Work Experience</div>
+        <div class="section-content">
+
+            <div class="job">
+                <div class="job-header">
+                    <div>
+                        <span class="job-title">Back End Developer</span>
+                        <span class="job-company"> | SALT · Full-time</span>
+                    </div>
+                    <div class="job-date">Dec 2022 – Present</div>
+                </div>
+                <div class="job-location">Jakarta Barat, Indonesia · Hybrid</div>
+                <ul class="bullet-list">
+                    <li>Developing and maintaining a microservice architecture handling tens of millions of records at approximately 5,000 transactions per second, using Java Spring Boot and Golang</li>
+                    <li>Implemented caching strategies with Redis and integrated message brokers (Apache Kafka & RabbitMQ) to improve system performance and reliability</li>
+                    <li>Applied Test-Driven Development (TDD), Domain-Driven Design (DDD), and Clean Architecture principles to ensure code quality and maintainability</li>
+                    <li>Deployed and managed microservices using Kubernetes on AWS EKS with Docker containerization, and implemented CI/CD pipelines using GitLab</li>
+                    <li>Collaborated cross-functionally with Frontend, DevOps, System Analysts, Project Manager, and QA teams using Agile/Scrum methodology</li>
+                    <li>Developed 4 major Telkomsel projects: 5G Speed Mode, ProteKsi Kecil, Incentive Campaign, and Mobile Loan services</li>
+                </ul>
+            </div>
+
+            <div class="job">
+                <div class="job-header">
+                    <div>
+                        <span class="job-title">Back End Developer</span>
+                        <span class="job-company"> | Systeric - Software Development Agency · Internship</span>
+                    </div>
+                    <div class="job-date">Mar 2022 – Sep 2022</div>
+                </div>
+                <div class="job-location">Bali, Indonesia · Remote</div>
+                <ul class="bullet-list">
+                    <li>Developed 3 full-stack applications within 6 months using Golang, Java Spring Boot, and PostgreSQL</li>
+                    <li>Designed and wrote comprehensive software documentation including API specifications and technical design documents</li>
+                    <li>Collaborated with Project Manager, Frontend Developers, and SDET teams using Agile methodology</li>
+                    <li>Conducted unit testing and code reviews to ensure feature quality and maintainability</li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Education -->
+    <div class="section">
+        <div class="section-title">Education</div>
+        <div class="section-content">
+
+            <div class="education-item">
+                <div class="job-header">
+                    <div>
+                        <span class="job-title">Bachelor of Management Information Systems</span>
+                        <span class="job-company"> | Bina Sarana Informatika University</span>
+                    </div>
+                    <div class="job-date">2025 – Present</div>
+                </div>
+                <div>GPA: 3.94/4.00, Indonesia</div>
+            </div>
+
+            <div class="education-item">
+                <div class="job-header">
+                    <div>
+                        <span class="job-title">Associate Degree in Information Technology</span>
+                        <span class="job-company"> | Bina Sarana Informatika University</span>
+                    </div>
+                    <div class="job-date">Graduated</div>
+                </div>
+                <div>GPA: 3.91/4.00 · Indonesia</div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Projects -->
+    <div class="section">
+        <div class="section-title">Key Projects</div>
+        <div class="section-content">
+
+            <div class="project-item">
+                <div class="project-title">Telkomsel Projects (SALT) – Dec 2022 – Present</div>
+                <ul class="bullet-list">
+                    <li><strong>5G Speed Mode:</strong> Internal monitoring system built with Golang, PostgreSQL, and AWS. Implemented unit testing with Testify and SonarQube for code quality.</li>
+                    <li><strong>ProteKsi Kecil:</strong> Family internet-safety monitoring and management system using Golang with OOP principles, PostgreSQL, and AWS deployment via GitLab CI/CD.</li>
+                    <li><strong>Incentive Campaign:</strong> Backend service for Telkomsel bundling incentive campaign using Java Spring Boot, microservices architecture, Kafka, Redis, RabbitMQ, MySQL, and Oracle Database.</li>
+                    <li><strong>Mobile Loan:</strong> Backend service supporting emergency credit activation flow using Java Spring Boot, Kafka, Redis, RabbitMQ, MySQL, and Oracle Database with unit testing via Mockito.</li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Certificates -->
+    <div class="section">
+        <div class="section-title">Certificates & Certifications</div>
+        <div class="section-content">
+
+            <div class="cert-item">
+                <div class="job-header">
+                    <div class="job-title">OWASP Top 10 Security</div>
+                    <div class="job-date">Issued Aug 2025</div>
+                </div>
+                Credential ID: LF-u7s25obfns
+            </div>
+
+            <div class="cert-item">
+                <div class="job-header">
+                    <div class="job-title">Golang Course</div>
+                    <div class="job-date">Issued Dec 2024</div>
+                </div>
+            </div>
+
+            <div class="cert-item">
+                <div class="job-header">
+                    <div class="job-title">Knowledge Profession IAII Preinexus</div>
+                    <div class="job-date">Issued 2020</div>
+                </div>
+                Professional certification in software engineering and information technology
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>
